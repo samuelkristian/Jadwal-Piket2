@@ -1,0 +1,139 @@
+/* Basic reset */
+
+body,
+h1,
+ul,
+li,
+p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* Body styling */
+
+body {
+    background-color: #f0f8ff;
+    /* Light blue background */
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Navbar styling */
+
+.navbar {
+    background-color: #ffcc00;
+    /* Bright yellow */
+    color: #333;
+    padding: 10px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.navbar .nav-links a:hover {
+    background-color: #ffeb99;
+    /* Light yellow */
+    border-radius: 5px;
+}
+
+
+/* Footer styling */
+
+footer {
+    background-color: #ffcc00;
+    /* Bright yellow */
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* Container styling */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Table styling */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    /* White background for table */
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+thead {
+    background-color: #ffeb99;
+    /* Light yellow */
+}
+
+tbody tr:hover {
+    background-color: #fafafa;
+    /* Very light grey */
+}
+
+
+/* Search input styling */
+
+#search {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
